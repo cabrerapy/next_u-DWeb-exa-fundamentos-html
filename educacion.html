@@ -31,9 +31,72 @@
 
                     <hr>
                     <h2>Educacion</h2>
+                    <table border="1" cellpadding="10" cellspacing="0">
+                        <thead>
+                        <tr>
+                            <th width="100">Año</th>
+                            <th width="200">Institucion</th>
+                            <th width="150">Lugar</th>
+                            <th width="100">¿Culmino?</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>2005</td>
+                            <td>C.E.Ñ</td>
+                            <td>Limpio</td>
+                            <td>si</td>
+                        </tr>
+                        <tr>
+                            <td>2014</td>
+                            <td>U.D.S</td>
+                            <td>Asunsion</td>
+                            <td>si</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>next_u</td>
+                            <td>On Line</td>
+                            <td>no</td>
+                        </tr>
+                        </tbody>
+                    </table>
 
+                    <Br>
+                    <h2>Agregar Estudios</h2>
+                    <form action="nuevos" name="estudios" id="id_estudios">
+                        <p>
+                            <label>Año: </label>
+                            <select name="anho">
+                                <option value="1">2014</option>
+                                <option value="2">2015</option>
+                                <option value="3">2016</option>
+                                <option value="4">2017</option>
+                            </select>
+                        </p>
 
+                        <p>
+                            <label for="institucion">Institucion</label>
+                            <input type="text" name="institucion" placeholder="Ingrese Lugar de Estudio">
+                        </p>
+
+                        <p>
+                            <label for="lugar">Lugar</label>
+                            <textarea name="lugar" id="" cols="30" rows="3" placeholder="Ingrese direccion"></textarea>
+                        </p>
+                        <p>
+                            <label for="finalizado">¿Culmino?: </label>
+                            <input type="radio" name="finalizado"> si
+                            <input type="radio" name="finalizado"> no
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                        </p>
+
+                    </form>
+                    <hr>
                     <footer>
+                        <p>@derechos reservados</p>
                         <p>Contacto: <a href="mailto:cabrera.ever@gmail.com">cabrera.ever@gmail.com</a></p>
                         <p>Repositorio GitHub: <a href="https://github.com/cabrerapy/next_u-DWeb-exa-fundamentos-html">Fundamentos HTML</a></p>
                         <p>Direccion: las palmas 320 - Asunción - Paraguay</p>
